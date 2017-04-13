@@ -1,0 +1,6 @@
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgNet\bin\Debug\SVG.dll
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgNet\bin\Debug\SVG.pdb
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgNet\bin\Debug\svgnetdoc.xml
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgNet\obj\Debug\SvgNet.csprojResolveAssemblyReference.cache
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgNet\obj\Debug\SVG.dll
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgNet\obj\Debug\SVG.pdb

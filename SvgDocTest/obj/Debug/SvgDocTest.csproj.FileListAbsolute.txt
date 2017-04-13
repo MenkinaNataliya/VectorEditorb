@@ -1,0 +1,5 @@
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgDocTest\bin\Debug\SvgDocTest.exe.config
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgDocTest\obj\Debug\SvgDocTest.csproj.ResolveComReference.cache
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgDocTest\obj\Debug\SvgDocTest.csprojResolveAssemblyReference.cache
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgDocTest\obj\Debug\SvgDocTest.Form1.resources
+D:\Учеба\Инженерная и компьютерная графика\VectorEditor\SvgDocTest\obj\Debug\SvgDocTest.csproj.GenerateResource.Cache

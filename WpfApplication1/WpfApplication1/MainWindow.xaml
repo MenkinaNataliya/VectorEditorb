@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="882.654" Width="1278.082">
+
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="494" Margin="248,20,0,0" VerticalAlignment="Top" Width="942">
+            <Canvas x:Name="FirstCanvas" MouseDown="MyCanvas_MouseDown" Background="WhiteSmoke" MouseMove="MyCanvas_MouseMove" MouseUp="MyCanvas_MouseUp" HorizontalAlignment="Left" Height="474" VerticalAlignment="Top" Width="723" Margin="10,10,0,0" OpacityMask="Black">
+            </Canvas>
+            <Label x:Name="label" Content="Настройки линии" Margin="752,10,69,456"/>
+            <Label x:Name="label1" Content="Выбрать цвет " Margin="752,105,101,359"/>
+            <Button x:Name="btColor" Content="..."  Width="29" Height="23" Click="btColor_Click" Margin="820,140,94,331"/>
+            <Rectangle x:Name="RectColorPicked" Fill="#FFF4F4F5" Height="23"  Stroke="Black"  Width="41" Margin="752,140,150,331"/>
+            <RadioButton x:Name="rbCurvedLine" Content="Произвольная линия" Checked="rbCurvedLine_Checked" Margin="752,185,42,288"/>
+            <RadioButton x:Name="rbStraightLine" Content="Прямая линия" IsChecked="True" Checked="rbStraightLine_Checked" Margin="752,211,66,263"/>
+            <Label x:Name="label2" Content="Выберите толщину" Margin="752,38,68,427" />
+            <Slider x:Name="slider" RenderTransformOrigin="0.554,-1.608" Minimum="1" SmallChange="1" MouseMove="slider_MouseMove" Margin="799,72,10,398"/>
+            <TextBox x:Name="tbThick" Height="23"  TextWrapping="Wrap" Text="TextBox" Width="33" Margin="752,72,158,398"/>
+            <RadioButton x:Name="rbCircle" Content="Окружность"  Checked="rbCircle_Checked" RenderTransformOrigin="0.2,0.718" Margin="752,231,94,246"/>
+            <RadioButton x:Name="rbRectangle" Content="Прямоугольник"  Checked="rbRectangle_Checked" Margin="752,248,68,229"/>
+            <Button x:Name="btSave" Content="Сохранить" Click="btSave_Click" Margin="799,435,57,24"/>
+            <RadioButton x:Name="rbMove" Content="Переместить объект" Checked="rbMove_Checked" Margin="752,317,43,158"/>
+            <Button x:Name="btRemove" Content="Удалить все"  Click="btRemove_Click" Margin="796,380,57,78"/>
+            <RadioButton x:Name="rbRemoveobject" Content="Удалить объект" Checked="rbRemoveobject_Checked" Margin="752,291,69,182" />
+            <RadioButton x:Name="rbResize" Content="Изменить размер" HorizontalAlignment="Left" Margin="752,341,0,0" VerticalAlignment="Top" Checked="rbResize_Checked"/>
+            <RadioButton x:Name="rbBezierCurve" Content="Кривая Безье (по 3 точкам)" IsChecked="True" Margin="752,271,10,203" Checked="rbBezierCurve_Checked"/>
+
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="429" Margin="10,85,0,0" VerticalAlignment="Top" Width="233"/>
+
+    </Grid>
+
+
+
+
+</Window>

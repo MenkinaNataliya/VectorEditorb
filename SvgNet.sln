@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgNet", "SvgNet\SvgNet.csproj", "{BB4C8021-B5E1-4DE2-82CB-14BDFB9837E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgDocTest", "SvgDocTest\SvgDocTest.csproj", "{6A203A21-673D-45E1-A7F5-D7112E114D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgGdiTest", "SvgGdiTest\SvgGdiTest.csproj", "{0C963EB6-C1B4-453D-B694-E81EC26D3AB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB4C8021-B5E1-4DE2-82CB-14BDFB9837E4}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{BB4C8021-B5E1-4DE2-82CB-14BDFB9837E4}.Debug|Default.Build.0 = Debug|Any CPU
+		{BB4C8021-B5E1-4DE2-82CB-14BDFB9837E4}.Release|Default.ActiveCfg = Release|Any CPU
+		{BB4C8021-B5E1-4DE2-82CB-14BDFB9837E4}.Release|Default.Build.0 = Release|Any CPU
+		{6A203A21-673D-45E1-A7F5-D7112E114D6E}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{6A203A21-673D-45E1-A7F5-D7112E114D6E}.Debug|Default.Build.0 = Debug|Any CPU
+		{6A203A21-673D-45E1-A7F5-D7112E114D6E}.Release|Default.ActiveCfg = Release|Any CPU
+		{6A203A21-673D-45E1-A7F5-D7112E114D6E}.Release|Default.Build.0 = Release|Any CPU
+		{0C963EB6-C1B4-453D-B694-E81EC26D3AB9}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{0C963EB6-C1B4-453D-B694-E81EC26D3AB9}.Debug|Default.Build.0 = Debug|Any CPU
+		{0C963EB6-C1B4-453D-B694-E81EC26D3AB9}.Release|Default.ActiveCfg = Release|Any CPU
+		{0C963EB6-C1B4-453D-B694-E81EC26D3AB9}.Release|Default.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
